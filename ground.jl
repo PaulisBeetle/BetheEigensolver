@@ -3,11 +3,6 @@ using BitBasis
 using LinearAlgebra
 using Statistics
 using QuAlgorithmZoo: Sequence
-using Plots
-using LsqFit
-
-include("circuit.jl")
-
 
 abstract type AbstractModel{D} end
 
